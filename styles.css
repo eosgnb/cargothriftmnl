@@ -167,7 +167,7 @@ body {
   }
 
   .text h3{
-    font-size: 25px;
+    font-size: 23px;
     padding-left: 20px;
     color: white;
     padding: 5px;
@@ -186,7 +186,7 @@ body {
 }
 .button-73 {
     appearance: none;
-    background-color: #ffffff;
+    background-color: #FEFAE0;
     border-radius: 10px;
     border-style: none;
     box-sizing: border-box;
@@ -211,7 +211,7 @@ body {
   }
   
   .button-73:hover {
-    background-color: #ffd15e;
+    background-color: #fde5a7;
     transform: scale(1.125);
   }
   .button-73:active {
@@ -256,7 +256,7 @@ body {
     border-color: #C2FFE9;
     display: flex;
     color: #C2FFE9;
-    background-color: #035839;
+    background-color: #153a2c;
     padding: 10px 16px;
     border-radius: 10px;
     transition: all .3s ease;
