@@ -19,21 +19,20 @@
             <div class="home">
                 <h1>Your Destination for Quality <br> Pre-Loved Treasures.</h1><br>
                 <h2>Since 2021, CARGOTHRIFT.MNL been known for our <br> great service and impeccable style.</h2><br><br><br>
-                    <button class="button-73" role="button">Shop Now</button>
-            </div> 
-      
+                    <button onclick="window.location.href='homepage.php'" class="button-73" role="button">Shop Now</button>
+            </div>
         <div class="main-container1"> 
             <div id="images">
                 <img src="Images/pants1.jpg" alt=”Photo” width=350 height=350>
-                <button class="pants1">CARGO PANTS</button>
+                <button onclick="window.location.href='cargo.php'" class="pants1">CARGO PANTS</button>
             </div>
             <div id="images">
                 <img src="Images/pants2.jpg" alt=”Photo” width=350 height=350>
-                <button class="pants2">CORDUROY</button>
+                <button onclick="window.location.href='corduroy.php'" class="pants2">CORDUROY</button>
             </div>
             <div id="images">
                 <img src="Images/pants3.jpg" alt=”Photo” width=350 height=350>
-                <button class="pants3">VINTAGE</button>
+                <button onclick="window.location.href='vintage.php'" class="pants3">VINTAGE</button>
             </div>
         </div>
             <div class="main-container">        
@@ -60,13 +59,9 @@
                     </div> 
                 </div>
             </div>
-                <div class="copyright">
-                    <center>
-                        <span>Copyright © 2023, CARGOTHRIFT.MNL</span>
-                    </center>
-                </div>
+                
         
-
+    <?php include 'footer.php';?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -81,8 +81,10 @@ body {
 
 #images {
     float:left;
-    padding:20px;
-    margin:5px;
+    padding:10px;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin:-25px;
     height:500px;
     width:500px;
     overflow:hidden;
@@ -135,7 +137,27 @@ body {
     text-align: center;
 }
 
-
+.pants1:hover {
+    background-color: #606C38;
+    transform: scale(1.125);
+  }
+  .pants1:active {
+    transform: scale(1.025);
+  }
+  .pants2:hover {
+    background-color: #606C38;
+    transform: scale(1.125);
+  }
+  .pants2:active {
+    transform: scale(1.025);
+  }
+  .pants3:hover {
+    background-color: #606C38;
+    transform: scale(1.125);
+  }
+  .pants3:active {
+    transform: scale(1.025);
+  }
 
 .slider img{
     display: flex;
@@ -192,7 +214,7 @@ body {
 
 .button-73 {
     appearance: none;
-    background-color: #FEFAE0;
+    background-color: #fde5a7;
     border-radius: 10px;
     border-style: none;
     box-sizing: border-box;
@@ -200,7 +222,7 @@ body {
     cursor: pointer;
     display: inline-block;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: bold;
     letter-spacing: -.24px;
     margin: 0;
     outline: none;
@@ -224,16 +246,4 @@ body {
     transform: scale(1.025);
   }
 
-  .copyright {
-    padding: 28px 0;
-    margin-top: 55px;
-    background-color: #3B3D34; }
-    .copyright span,
-    .copyright a {
-      color: #878787;
-      -webkit-transition: all 0.3s linear;
-      -o-transition: all 0.3s linear;
-      transition: all 0.3s linear; }
-    .copyright a:hover {
-      color:#007bff; }
  
