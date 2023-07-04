@@ -19,9 +19,9 @@
             <div class="home">
                 <h1>Your Destination for Quality <br> Pre-Loved Treasures.</h1><br>
                 <h2>Since 2021, CARGOTHRIFT.MNL been known for our <br> great service and impeccable style.</h2><br><br><br>
-                    <button onclick="window.location.href='homepage.php'" class="button-73" role="button">Shop Now</button>
+                    <button onclick="window.location.href='shop.php'" class="button-73" role="button">Shop Now</button>
             </div>
-        <div class="main-container1"> 
+        <div class="main-container1" id="shop"> 
             <div id="images">
                 <img src="Images/pants1.jpg" alt=”Photo” width=350 height=350>
                 <button onclick="window.location.href='cargo.php'" class="pants1">CARGO PANTS</button>
@@ -43,19 +43,21 @@
                 </div>
                 <div class="container2">
                     <div class="text">
-                        <h1>About Us</h1>
-                        <h3>Founded in 2023, CargoThrift.mnl was born
-                        from a vision to <br> revolutionize fashion and
-                        promote sustainability. We curate <br>pre-loved
-                        clothing, making fashion affordable and 
-                        environmentally <br>friendly. With a commitment 
-                        to reducing waste and empowering <br>conscious
-                        consumerism, we provide a platform where
-                        style meets <br>sustainability.</h3>
-                        <h3>CargoThrift Shop is a unique and innovative retail destination
-                        that <br> brings together the thrill of treasure hunting with the convenience <br> of online shopping.
-                        We specialize in offering a wide variety of <br> pre-loved and gently used items, carefully curated to 
-                        cater <br>to the diverse tastes and preferences of our customers.</h3>
+                        <div id="About">
+                            <h1>About Us</h1>
+                            <h3>Founded in 2023, CargoThrift.mnl was born
+                            from a vision to <br> revolutionize fashion and
+                            promote sustainability. We curate <br>pre-loved
+                            clothing, making fashion affordable and 
+                            environmentally <br>friendly. With a commitment 
+                            to reducing waste and empowering <br>conscious
+                            consumerism, we provide a platform where
+                            style meets <br>sustainability.</h3>
+                            <h3>CargoThrift Shop is a unique and innovative retail destination
+                            that <br> brings together the thrill of treasure hunting with the convenience <br> of online shopping.
+                            We specialize in offering a wide variety of <br> pre-loved and gently used items, carefully curated to 
+                            cater <br>to the diverse tastes and preferences of our customers.</h3>
+                        </div>
                     </div> 
                 </div>
             </div>

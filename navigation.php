@@ -11,7 +11,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-1 my-auto d-none d-sm-none d-md-block d-lg-block">
-                        <h8 onclick="window.location.href='cargo.php'" style="color:white; font-family:Josefin Sans;"> CARGOTHRIFT.MNL</h8>
+                        <h8 onclick="window.location.href='homepage.php'" style="color:white; font-family:Josefin Sans;"> CARGOTHRIFT.MNL</h8>
                     </div>
                     <div class="col-md-8 my-auto">
                       <ul class="nav justify-content-center p-0 m-1">
@@ -19,13 +19,13 @@
                             <a class="nav-link" href="homepage.php"style="color: white; font-family: Lato;">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: white; font-family: Lato;">About</a>
+                            <a class="nav-link" href="#About" style="color: white; font-family: Lato;">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#" style="color: white; font-family: Lato;">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: white; font-family: Lato; ">Shop</a>    
+                            <a class="nav-link" href="shop.php" style="color: white; font-family: Lato; ">Shop</a>    
                         </li>
                     </ul> 
                     </div>
