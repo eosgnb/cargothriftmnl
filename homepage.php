@@ -57,7 +57,7 @@
             </div>
         </div>
     </div> -->
-    <div class="container">
+    <div class="container prod-cat-container">
         <div class="row">
             <div class="col">
                 <div class="image-box">
@@ -86,7 +86,7 @@
         </div>
     </div>
 
-            <div class="main-container">        
+            <div class="main-container mt-5">        
                 <div class="container1">
                     <div class="slider">
                         <img src="Images/CARGOTHRIFT.png"  alt="slider" />

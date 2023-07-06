@@ -88,10 +88,11 @@ body {
 }
 
 .image-box {
-  width: 350px;
+  /* width: 350px;
   height: 350px;
+  position: relative; */
+  width: 100%;
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))
 }
 
 .image-box img {
