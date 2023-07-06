@@ -29,34 +29,6 @@
     </div>
     
     <!-- Products category gallery -->
-    <!-- <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4 m-2">
-                <div class="image-box">
-                    <img src="./images/products/cargo-pants/cp-product-9.jpg" alt="Image 1">
-                    <div class="button-container">
-                        <button class="btn btn-primary">Button 1</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 m-2">
-                <div class="image-box">
-                    <img src="./images/products/corduroy/cords-product-1.jpg" alt="Image 2">
-                    <div class="button-container">
-                        <button class="btn btn-primary">Button 2</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 m-2">
-                <div class="image-box">
-                    <img src="./images/products/vintage/vint-product-2.jpg" alt="Image 3">
-                    <div class="button-container">
-                        <button class="btn btn-primary">Button 3</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
     <div class="container prod-cat-container">
         <div class="row">
             <div class="col">
