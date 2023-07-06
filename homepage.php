@@ -21,26 +21,71 @@
 <body>
     <?php include 'navigation.php';?>
     
+    <!-- Header section -->
     <div class="jumbotron d-flex flex-column align-items-center text-center">
         <h1 class="display-1 pb-3">Experience Ethical Fashion<br>at its Finest</h1>
         <p class="lead pb-3">Since 2023, CARGOTHRIFT.MNL been known for its great service and impeccable style.</p>
         <a onclick="window.location.href='shop.php'" class="btn btn-primary btn-lg" id="shopBtn" href="#" role="button">SHOP NOW</a>
     </div>
     
-        <div class="main-container1" id="shop"> 
-            <div id="images">
-                <img src="Images/pants1.jpg" alt=”Photo” width=350 height=350>
-                <button onclick="window.location.href='cargo.php'" class="pants1">CARGO PANTS</button>
+    <!-- Products category gallery -->
+    <!-- <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 m-2">
+                <div class="image-box">
+                    <img src="./images/products/cargo-pants/cp-product-9.jpg" alt="Image 1">
+                    <div class="button-container">
+                        <button class="btn btn-primary">Button 1</button>
+                    </div>
+                </div>
             </div>
-            <div id="images">
-                <img src="Images/pants2.jpg" alt=”Photo” width=350 height=350>
-                <button onclick="window.location.href='corduroy.php'" class="pants2">CORDUROY</button>
+            <div class="col-md-4 m-2">
+                <div class="image-box">
+                    <img src="./images/products/corduroy/cords-product-1.jpg" alt="Image 2">
+                    <div class="button-container">
+                        <button class="btn btn-primary">Button 2</button>
+                    </div>
+                </div>
             </div>
-            <div id="images">
-                <img src="Images/pants3.jpg" alt=”Photo” width=350 height=350>
-                <button onclick="window.location.href='vintage.php'" class="pants3">VINTAGE</button>
+            <div class="col-md-4 m-2">
+                <div class="image-box">
+                    <img src="./images/products/vintage/vint-product-2.jpg" alt="Image 3">
+                    <div class="button-container">
+                        <button class="btn btn-primary">Button 3</button>
+                    </div>
+                </div>
             </div>
         </div>
+    </div> -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="image-box">
+                    <img src="./images/products/cargo-pants/cp-product-9.jpg" alt="Image 1">
+                    <div class="button-container">
+                        <button onclick="window.location.href='cargo.php'" class="btn prod-cat-btn">CARGO</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="image-box">
+                    <img src="./images/products/corduroy/cords-product-1.jpg" alt="Image 2">
+                    <div class="button-container">
+                        <button onclick="window.location.href='corduroy.php'" class="btn prod-cat-btn">CORDUROY</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="image-box">
+                    <img src="./images/products/vintage/vint-product-2.jpg" alt="Image 3">
+                    <div class="button-container">
+                        <button onclick="window.location.href='vintage.php'" class="btn prod-cat-btn">VINTAGE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
             <div class="main-container">        
                 <div class="container1">
                     <div class="slider">
