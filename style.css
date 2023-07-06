@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-  padding: 20px 70px;
+  padding: 20px 60px;
   background-color: #22241B;
 }
 
@@ -47,6 +47,40 @@ body {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+.jumbotron {
+  background-image: linear-gradient(rgba(5, 0, 2, 0.622), rgba(0, 0, 0, 0.5)), url("./images/cargopants.jpg");
+  height: 600px;
+  border-radius: 0%;
+  padding: 100px 80px;
+}
+
+.display-1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color: #F7F7F7;
+}
+
+.lead {
+  font-family: 'Roboto', sans-serif;
+  color: #F7F7F7;
+  font-weight: lighter;
+}
+
+#shopBtn {
+  background-color: #606C38;
+  color: #F7F7F7;
+  font-family: 'Oswald', sans-serif;
+  border: none;
+  padding: 15px 50px;
+  border-radius: 0px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+#shopBtn:hover {
+  background-color: #30361C;
+}
 /* .main-navbar .top-navbar{
     background-color: #22241B;
     padding-top: 10px;

@@ -1,26 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CargoThrift.Mnl</title>
 
+    <!-- Bootstrap CSS Link -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Oswald&family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Open+Sans&family=Oswald&family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <?php include 'navigation.php';?>
     
-            <div class="home">
-                <h1>Your Destination for Quality <br> Pre-Loved Treasures.</h1><br>
-                <h2>Since 2021, CARGOTHRIFT.MNL been known for our <br> great service and impeccable style.</h2><br><br><br>
-                    <button onclick="window.location.href='shop.php'" class="button-73" role="button">Shop Now</button>
-            </div>
+    <div class="jumbotron d-flex flex-column align-items-center text-center">
+        <h1 class="display-1 pb-3">Experience Ethical Fashion<br>at its Finest</h1>
+        <p class="lead pb-3">Since 2023, CARGOTHRIFT.MNL been known for its great service and impeccable style.</p>
+        <a onclick="window.location.href='shop.php'" class="btn btn-primary btn-lg" id="shopBtn" href="#" role="button">SHOP NOW</a>
+    </div>
+    
         <div class="main-container1" id="shop"> 
             <div id="images">
                 <img src="Images/pants1.jpg" alt=”Photo” width=350 height=350>

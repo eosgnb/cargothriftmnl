@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Open+Sans&family=Oswald&family=Roboto+Condensed&display=swap" rel="stylesheet">
+
     <!-- Local CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -46,7 +47,7 @@
         </div>
     </div> -->
 
-  <nav class="navbar navbar-expand-lg sticky-top px-3">
+  <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid">
         <a class="navbar-brand mr-5" href="#">CARGOTHRIFT.MNL</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
