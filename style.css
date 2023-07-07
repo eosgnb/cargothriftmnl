@@ -54,14 +54,24 @@ body {
   padding: 100px 80px;
 }
 
+@media (max-width: 576px) {
+  .display-1 {
+      font-size: 3rem;
+      line-height: 1.2;
+  }
+  .h5 {
+      font-size: 1.5rem;
+      line-height: 1.4;
+  }
+}
+
 .display-1 {
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
   color: #F7F7F7;
 }
 
-.lead {
-  font-family: 'Roboto', sans-serif;
+.h5 {
   color: #F7F7F7;
   font-weight: lighter;
 }
@@ -88,9 +98,6 @@ body {
 }
 
 .image-box {
-  /* width: 350px;
-  height: 350px;
-  position: relative; */
   width: 100%;
   position: relative;
 }
@@ -112,80 +119,26 @@ body {
 .prod-cat-btn {
   padding: 10px 50px;
 }
-/* .main-navbar .top-navbar{
-    background-color: #22241B;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.main-navbar .top-navbar .brand-name{
-    color: #fff;
-}
-.main-navbar .top-navbar .nav-link{
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-}
-.main-navbar .top-navbar .dropdown-menu{
-    padding: 0px 0px;
-    border-radius: 0px;
-}
-.main-navbar .top-navbar .dropdown-menu .dropdown-item{
-    padding: 8px 16px;
-    border-bottom: 1px solid #ccc;
-    font-size: 14px;
-}
-.main-navbar .top-navbar .dropdown-menu .dropdown-item i{
-    width: 20px;
-    text-align: center;
-    color: white;
-    font-size: 14px;
-}
-.main-navbar .navbar{
-    padding: 0px;
-    background-color: #ddd;
-}
-.main-navbar .navbar .nav-item .nav-link{
-    padding: 8px 20px;
-    color: #000;
-    font-size: 15px;
+
+.image-text-container {
+  display: flex;
+  align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
-    .main-navbar .top-navbar .nav-link{
-        font-size: 12px;
-        padding: 8px 10px;
-    }
-} */
-
-/* .home {
-    background-image: linear-gradient(rgba(5, 0, 2, 0.622), rgba(0, 0, 0, 0.5)), url('Images/2.png');
-    background-size: cover;
-    height: 870px;
-    display: inline-block;
-    width: 100%;
-    padding-top: 10px;
-    color: #fff;
+.image-text-container img {
+  max-width: 100%;
+  margin-right: 10px;
 }
 
-
-.home h1 {
-    font-weight: bold;
-    margin-left: 50px;
-    font-size: 80px;
-    margin-top: 220px;
-    text-align: left;
-    color: #fff;
-    font-family: Roboto Condensed;
+.display-4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color: #22241B;
 }
 
-.home h2 {
-    font-size: 30px;
-    text-align: left;
-    color: #fff;
-    margin-left: 50px;
-    margin-top: -4px;
-    font-family: 'Montserrat', sans-serif;
-} */
+p {
+  font-size: 15px;
+}
 
 #images {
     float:left;
