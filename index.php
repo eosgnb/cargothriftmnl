@@ -7,8 +7,7 @@
 
     <!-- Bootstrap CSS Link -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,7 +66,7 @@
             <div class="col-lg-8">
                 <div class="mt-4">
                     <h1 class="display-4">ABOUT US</h1>
-                    <p class="lead h1">Founded in 2023, CargoThrift.mnl was born from a vision to revolutionize fashion and promote sustainability. We curate pre-loved clothing, making fashion affordable and environmentally friendly. With a commitment to reducing waste and empowering conscious consumerism, we provide a platform where style meets sustainability. <br><br>CARGOTHRIFT.MNL is a unique and innovative retail destination that brings together the thrill of treasure hunting with the convenience of online shopping. We specialize in offering a wide variety of pre-loved and gently used items, carefully curated to cater to the diverse tastes and preferences of our customers.</p>
+                    <p class="lead h3">Founded in 2023, CargoThrift.mnl was born from a vision to revolutionize fashion and promote sustainability. We curate pre-loved clothing, making fashion affordable and environmentally friendly. With a commitment to reducing waste and empowering conscious consumerism, we provide a platform where style meets sustainability. <br><br>CARGOTHRIFT.MNL is a unique and innovative retail destination that brings together the thrill of treasure hunting with the convenience of online shopping. We specialize in offering a wide variety of pre-loved and gently used items, carefully curated to cater to the diverse tastes and preferences of our customers.</p>
                 </div>
             </div>
         </div>
