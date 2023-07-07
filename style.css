@@ -83,12 +83,12 @@ body {
   border: none;
   border-radius: 0px;
   text-decoration: none;
-  font-size: 20px;
   transition: background-color 0.3s ease;
 }
 
 #shopBtn {
   padding: 15px 50px;
+  font-size: 20px;
 }
 
 /* prod-cat: Product Category */
@@ -118,7 +118,8 @@ body {
 }
 
 .prod-cat-btn {
-  padding: 10px 50px;
+  padding: 15px 90px;
+  font-size: 30px;
 }
 
 .image-text-container {
