@@ -9,6 +9,7 @@
 
     <!-- Local CSS -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pants.css">
 </head>
 <!-- <div class="main-navbar shadow-sm sticky-top">
         <div class="top-navbar">
@@ -46,35 +47,37 @@
             </div>
         </div>
     </div> -->
+    
 
   <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid">
-        <a class="navbar-brand mr-5" href="#">CARGOTHRIFT.MNL</a>
+        <a class="navbar-brand mr-5" href="homepage.php">CARGOTHRIFT.MNL</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="homepage.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#About">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Shop</a>
+                    <a class="nav-link" href="shop.php">Shop</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fa fa-shopping-cart"></i> Cart
-                    </a>
+                    <button id="open_cart_btn">
+                        <i class="fa fa-shopping-cart" style="color:white; font-size:25px"></i> <span style="color:white; padding-left:10px; text-align:center;"> Cart </span>
+                    </button>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
