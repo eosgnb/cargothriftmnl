@@ -19,33 +19,6 @@
                             </div>
                         </div>
                         <!-- Popup -->
-                        <div id="popup1" class="overlay">
-  <div class="popup">
-    <div class="popup-img">
-      <img src="./images/products/cargo-pants/cp-product-1.jpg" alt="Product 1">
-    </div>
-    <div class="popup-info">
-      <div>
-        <h2>AEROPOSTALE CARGO</h2>
-        <h3>₱400</h3>
-      </div>
-      <button onclick="window.location.href='shop.php'" class="popup-button">ADD TO CART</button>
-      <div class="popup-details">
-        <h4>Product Details:</h4>
-        <p>Details about the product...</p>
-        <h4>Sizing Guide:</h4>
-        <img src="./images/sizing-guide.png" alt="Sizing Guide">
-      </div>
-    </div>
-    <a class="close" href="#">&times;</a>
-  </div>
-</div>
-
-
-
-
-
-
 
                     </a>
                 </div>
