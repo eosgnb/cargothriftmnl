@@ -7,9 +7,7 @@
       font-size: 1.5rem;
       line-height: 1.4;
   }
-}
 
-@media (max-width: 767px) {
   .product-item img {
     width: 100%;
     height: auto;
@@ -102,7 +100,8 @@ body {
   font-weight: lighter;
 }
 
-#shopBtn, .prod-cat-btn {
+#shopBtn, 
+.prod-cat-btn {
   background-color: #606C38;
   color: #F7F7F7;
   font-family: 'Oswald', sans-serif;
@@ -118,7 +117,8 @@ body {
 }
 
 /* prod-cat: Product Category */
-#shopBtn:hover, .prod-cat-btn:hover {
+#shopBtn:hover, 
+.prod-cat-btn:hover {
   background-color: #30361C;
   color: #F7F7F7;
 }
@@ -217,6 +217,84 @@ p {
   color: #DDA15E;
 }
 
+/* Information CSS */
+.logo img {
+  height: 150px;
+  width: auto;
+}
+
+.navigation-menu {
+  display: flex;
+  justify-content: left;
+}
+
+.menu-item.current {
+  font-weight: bold;
+}
+
+.menu-item {
+  margin-right: 10px;
+  font-weight: normal;
+  color: #22241B;
+  text-decoration: none; 
+}
+
+.form-group {
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-group.row .col-md-6 label {
+  display: block;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"] {
+  width: 100%;
+}
+
+.form-control, .btn {
+  border-radius: 0px;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.form-title {
+  font-weight: bold;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.submit-btn {
+  background-color: #606C38;
+  color: #F7F7F7;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  border-radius: 0px;
+  text-decoration: none;
+}
+
+.return-btn {
+  text-decoration: underline;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
 
 /* #images {
     float:left;

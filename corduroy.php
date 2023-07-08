@@ -1,22 +1,70 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CargoThrift.Mnl</title>
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Oswald&family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <script src="main.js" defer></script>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="pants.css">
+<!-- Header File -->
+<?php include 'header.php';?>
+
 </head>
 <body>
+    <!-- Navigation File -->
     <?php include 'navigation.php';?>
-    <div class="font">
+
+    <div class="container pt-5 product-gallery">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-item">
+                    <a href="#popup1" class="product-link">
+                        <img class="img-fluid" src="./images/products/corduroy/cords-product-1.jpg" alt="Product 1">
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h5 class="product-name">CORDS 71</h5>
+                                <p class="product-price">₱400</p>
+                            </div>
+                        </div>
+                        <!-- Popup -->
+
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-item">
+                    <a href="#" class="product-link">
+                        <img class="img-fluid" src="./images/products/corduroy/cords-product-2.jpg" alt="Product 1">
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h5 class="product-name">CORDS 89</h5>
+                                <p class="product-price">₱350</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-item">
+                    <a href="#" class="product-link">
+                        <img class="img-fluid" src="./images/products/corduroy/cords-product-3.jpg" alt="Product 1">
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h5 class="product-name">GU CORDS 71</h5>
+                                <p class="product-price">₱350</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-item">
+                    <a href="#" class="product-link">
+                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-4.jpg" alt="Product 1">
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h5 class="product-name">AMERICAN SLUMFIT CORDS</h5>
+                                <p class="product-price">₱400</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="font">
         <h1>CORDUROY PANTS</h1>
     </div>
         <div class="row">
@@ -220,7 +268,7 @@
                             <button>Check Out</button>
                         </div> 
             </div>
-        </div>
+        </div> -->
 
     <?php include 'footer.php';?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>

@@ -9,7 +9,7 @@
     <div class="container pt-5 product-gallery">
         <div class="row">
             <div class="col-lg-4 col-md-6 mb-4">
-                <div class="product-item">
+                <div class="product-item col-12">
                     <a href="#popup1" class="product-link">
                         <img class="img-fluid" src="./images/products/cargo-pants/cp-product-1.jpg" alt="Product 1">
                         <div class="product-details">

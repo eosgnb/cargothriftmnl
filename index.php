@@ -9,7 +9,7 @@
     <div class="jumbotron d-flex flex-column align-items-center text-center">
         <h1 class="display-1 pb-3">Experience Ethical Fashion<br>at its Finest</h1>
         <p class="h5 pb-3">Since 2023, CARGOTHRIFT.MNL been known for its great service and impeccable style.</p>
-        <a onclick="window.location.href='shop.php'" class="btn btn-primary btn-lg" id="shopBtn" href="#" role="button">SHOP NOW</a>
+        <a onclick="window.location.href='shop.php'" class="btn btn-lg" id="shopBtn" href="#" role="button">SHOP NOW</a>
     </div>
     
     <!-- Products category gallery -->
