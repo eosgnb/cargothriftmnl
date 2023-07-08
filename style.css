@@ -43,6 +43,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .navbar {
   padding: 20px 60px;
   background-color: #22241B;
@@ -335,18 +340,22 @@ p {
 }
 
 .border-gray {
-  border: 3px solid black !important;
-  padding: 10px;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
+  border: 2px solid #DADADA;
 }
 
 .col-lg-5 {
   flex: 1;
   overflow-y: auto;
+}
+
+.gray-line {
+  border-bottom: 2px solid #DADADA;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.no-margin {
+  margin: 0;
 }
 
 
