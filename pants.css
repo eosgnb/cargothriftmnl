@@ -101,6 +101,7 @@ body{
     text-decoration: none;
     color: #333;
   }
+
   .popup .close:hover {
     color: #06D85F;
   }
@@ -119,6 +120,7 @@ body{
       width: 70%;
     }
   }
+  
   .content img {
     width: 60%;
     height: 80%;

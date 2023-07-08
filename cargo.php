@@ -1,27 +1,164 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
-    <title>CargoThrift.Mnl</title>
-    <!-- Bootstrap CSS Link -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Open+Sans&family=Oswald&family=Roboto+Condensed&display=swap" rel="stylesheet">
-    
-    <!-- Local CSS File -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="pants.css">
-</head>
+<!-- Header File -->
+<?php include 'header.php';?>
+
 <body>
+    <!-- Navigation File -->
     <?php include 'navigation.php';?>
     
     <!-- Product Gallery -->
-    <div class="font">
+    <div class="container pt-5 product-gallery">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-item">
+                    <a href="#popup1" class="product-link">
+                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-1.jpg" alt="Product 1">
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h5 class="product-name">AEROPOSTALE CARGO</h5>
+                                <p class="product-price">₱400</p>
+                            </div>
+                        </div>
+                        <!-- Popup -->
+                        <div id="popup1" class="overlay">
+  <div class="popup">
+    <div class="popup-img">
+      <img src="./images/products/cargo-pants/cp-product-1.jpg" alt="Product 1">
+    </div>
+    <div class="popup-info">
+      <div>
+        <h2>AEROPOSTALE CARGO</h2>
+        <h3>₱400</h3>
+      </div>
+      <button onclick="window.location.href='shop.php'" class="popup-button">ADD TO CART</button>
+      <div class="popup-details">
+        <h4>Product Details:</h4>
+        <p>Details about the product...</p>
+        <h4>Sizing Guide:</h4>
+        <img src="./images/sizing-guide.png" alt="Sizing Guide">
+      </div>
+    </div>
+    <a class="close" href="#">&times;</a>
+  </div>
+</div>
+
+
+
+
+
+
+
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-item">
+                    <a href="#" class="product-link">
+                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-2.jpg" alt="Product 1">
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h5 class="product-name">DOCKERS CARGO</h5>
+                                <p class="product-price">₱350</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-item">
+                    <a href="#" class="product-link">
+                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-3.jpg" alt="Product 1">
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h5 class="product-name">WRANGLER CARGO</h5>
+                                <p class="product-price">₱350</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-item">
+                    <a href="#" class="product-link">
+                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-4.jpg" alt="Product 1">
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h5 class="product-name">AMERICAN EAGLE CARGO</h5>
+                                <p class="product-price">₱350</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-item">
+                    <a href="#" class="product-link">
+                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-5.jpg" alt="Product 1">
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h5 class="product-name">SNAZZY CARGO</h5>
+                                <p class="product-price">₱350</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-item">
+                    <a href="#" class="product-link">
+                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-6.jpg" alt="Product 1">
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h5 class="product-name">ZARA CARGO</h5>
+                                <p class="product-price">₱550</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-item">
+                    <a href="#" class="product-link">
+                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-7.jpg" alt="Product 1">
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h5 class="product-name">AMERICAN EAGLE CARGO</h5>
+                                <p class="product-price">₱650</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-item">
+                    <a href="#" class="product-link">
+                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-8.jpg" alt="Product 1">
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h5 class="product-name">CAMOU CARGO</h5>
+                                <p class="product-price">₱350</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-item">
+                    <a href="#" class="product-link">
+                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-9.jpg" alt="Product 1">
+                        <div class="product-details">
+                            <div class="product-info">
+                                <h5 class="product-name">ZARA CAMOU CARGO</h5>
+                                <p class="product-price">₱750</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- <div class="font">
         <h1>CARGO PANTS</h1>
     </div>
         <div class="row">
@@ -43,7 +180,6 @@
 	            <div class="popup">
 		            <h2>AEROPOSTLE CARGO</h2>
                     <h3>₱400</h3>
-                    
 		            <a class="close" href="#">&times;</a>
 		            <div class="content">
                         <img src="Images/products/cargo-pants/cp-product-1.jpg" alt=”Photo”>
@@ -355,7 +491,7 @@
                     <button>Check Out</button>
                 </div> 
             </div>
-        </div>
+        </div> -->
 
         
 
