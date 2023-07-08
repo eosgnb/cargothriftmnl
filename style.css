@@ -306,7 +306,6 @@ p {
 }
 
 .checkout-item-border {
-  border: 2px solid #EEEEEE;
   padding: 10px;
   background-color: #EEEEEE;
 }
@@ -334,6 +333,22 @@ p {
 .checkout {
   margin-top: 20%;
 }
+
+.border-gray {
+  border: 3px solid black !important;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-lg-5 {
+  flex: 1;
+  overflow-y: auto;
+}
+
 
 /* #images {
     float:left;

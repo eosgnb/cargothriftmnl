@@ -6,6 +6,7 @@
     <!-- Navigation File -->
     <?php include 'navigation.php';?>
 
+    <!-- Product Gallery -->
     <div class="container pt-5 product-gallery">
         <div class="row">
             <div class="col-lg-4 col-md-6 mb-4">
