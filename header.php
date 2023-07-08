@@ -18,4 +18,6 @@
 
     <!-- Local CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- JavaScript CSS -->
+    <script src="main.js" defer></script>
 </head>

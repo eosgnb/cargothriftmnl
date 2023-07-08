@@ -43,7 +43,7 @@
     </div>
 
     <!-- About Us -->
-    <div class="container my-5 h-100 .bg-dark.bg-gradient">
+    <div id="About" class="container my-5 h-100 .bg-dark.bg-gradient">
         <div class="row">
             <div class="col-lg-4 pe-4">
                 <img class="w-100" src="./images/justthriftit.png"/>
