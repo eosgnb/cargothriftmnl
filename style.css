@@ -31,6 +31,10 @@
     white-space: normal;
     text-decoration: none;
   }
+
+  .checkout {
+    margin-top: 10%;
+  }
 }
 
 body {
@@ -294,6 +298,41 @@ p {
 .btn:focus {
   outline: none;
   box-shadow: none;
+}
+
+.checkout-img {
+  max-width: 15%; 
+  height: auto; 
+}
+
+.checkout-item-border {
+  border: 2px solid #EEEEEE;
+  padding: 10px;
+  background-color: #EEEEEE;
+}
+
+.checkout-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.checkout-item {
+  padding: 20px;
+}
+
+.checkout-details p {
+  font-size: 17px;
+}
+
+.checkout-pricing-details {
+  margin: 40px;
+}
+
+.checkout {
+  margin-top: 20%;
 }
 
 /* #images {
