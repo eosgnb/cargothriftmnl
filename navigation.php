@@ -72,7 +72,7 @@
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <button id="open_cart_btn">
+                    <button id="open_cart_btn" style="background-color:#22241B; border: none;">
                         <i class="fa fa-shopping-cart" style="color:white; font-size:25px"></i> <span style="color:white; padding-left:10px; text-align:center;"> Cart </span>
                     </button>
                 </li>

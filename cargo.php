@@ -470,7 +470,7 @@
                             <div class="cart_actions">
                                 <div class="subtotal">
                                     <p> SUBTOTAL </p>
-                                    <p> P<span id="subtotal_price">500</span></p>
+                                    <p> P<span id="subtotal_price">400</span></p>
                                 </div>
                                 <button>Check Out</button>
                             </div> 

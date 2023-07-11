@@ -433,7 +433,7 @@ p {
 
 .remove_item {
   position: relative;
-  left: -50px;
+  left: -20px;
   width: 20px;
   height: 20px;
   background-color: #ccc;
