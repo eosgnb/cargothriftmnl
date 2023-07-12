@@ -32,84 +32,75 @@
     text-decoration: none;
   }
 
-<<<<<<< HEAD
-  .column {
+.column {
     width: 100%;
     display: block;
     margin-bottom: 20px;
-  }
-  .row h3, h2 {
-    font-size: 20px;
-    line-height: 1.2;
-  }
-  .row #images1  {
-    position: relative;
-    right: 120px;
-    bottom: 125px;
-    width: 87%;
-    height: auto;
-  
-  }
-  
-  
-=======
-  .checkout {
-    margin-top: 10%;
-  }
-<<<<<<< Updated upstream
->>>>>>> 96db05bfbd9f773c395b81b6f90df72c0e2e17c8
-=======
-
-  /* Payment Page */
-  .payment-option {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    padding: 10px;
-  }
-
-  .payment-option input[type="radio"] {
-    display: none;
-  }
-
-  .payment-option label {
-    cursor: pointer;
-    font-weight: bold;
-    margin-left: 10px;
-    font-size: 14px; /* Adjust the font size as needed */
-  }
-
-  .payment-option .payment-option-content {
-    padding: 0 15px;
-    font-size: 12px; /* Adjust the font size as needed */
-  }
-
-  .payment-option input[type="radio"] + label::before {
-    content: "";
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #DADADA;
-    border-radius: 50%;
-    margin-right: 10px;
-    vertical-align: middle;
-  }
-
-  .payment-option input[type="radio"]:checked + label::before {
-    background-color: #22241B;
-  }
->>>>>>> Stashed changes
 }
 
-
-
+.row h3, h2 {
+    font-size: 20px;
+    line-height: 1.2;
+}
 
 body {
   overflow-x: hidden;
   background-color: white;
   font-family: 'Montserrat', sans-serif;
+}
+
+.row #images1  {
+    position: relative;
+    right: 120px;
+    bottom: 125px;
+    width: 87%;
+    height: auto;
+}
+  
+
+.checkout {
+    margin-top: 10%;
+}
+
+  /* Payment Page */
+.payment-option {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.payment-option input[type="radio"] {
+  display: none;
+}
+
+.payment-option label {
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 14px; /* Adjust the font size as needed */
+}
+
+.payment-option .payment-option-content {
+  padding: 0 15px;
+  font-size: 12px; /* Adjust the font size as needed */
+}
+
+.payment-option input[type="radio"] + label::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #DADADA;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.payment-option input[type="radio"]:checked + label::before {
+    background-color: #22241B;
+  }
 }
 
 .container {
@@ -396,7 +387,6 @@ p {
   box-shadow: none;
 }
 
-<<<<<<< HEAD
 /* Sidebar CSS */
 #open_cart_btn{
   border: none;
@@ -431,6 +421,7 @@ p {
   height: 100%;
   flex-direction: column;
 }
+
 .cart_header{
   padding-top: 100px;
   padding-left: 1rem;
@@ -441,7 +432,8 @@ p {
   justify-content: space-between;
   align-items: center;
 }
-.header_title{
+
+.header_title {
   position: relative;
 }
 
@@ -717,7 +709,7 @@ p {
   opacity: 1;
   pointer-events: auto;
 }
-=======
+
 .checkout-img {
   max-width: 15%; 
   height: auto; 
@@ -773,10 +765,7 @@ p {
   margin: 0;
 }
 
-<<<<<<< Updated upstream
->>>>>>> 96db05bfbd9f773c395b81b6f90df72c0e2e17c8
-
-/* #images {
+#images {
     float:left;
     padding:10px;
     padding-left: 0%;
@@ -786,10 +775,10 @@ p {
     width:500px;
     overflow:hidden;
     text-align:center;
-=======
+}
+
 label {
   float: left !important;
->>>>>>> Stashed changes
 }
 
 .card-header {
