@@ -5,39 +5,40 @@
     <!-- Navigation File -->
     <?php include 'navigation.php';?>
 
-    <div class="container pt-4">
+    <!-- Shipping page -->
+    <div class="container">
         <div class="row justify-content-center g-2 align-items-lg-start">
             <div class="col-lg-7 p-5">
                 <div class="logo pb-3">
                     <img src="./images/logo.png" alt="CARGOTHRIFT.MNL Logo">
                 </div>
-                <div class="info-nav pb-3">
+                <div class="info-nav mt-2 mb-4">
                     <div class="navigation-menu">
-                        <a href="#" class="menu-item">Cart</a>
-                        <a href="#" class="menu-item">Information</a>
-                        <a href="#" class="menu-item current">Shipping</a>
-                        <a href="#" class="menu-item">Payment</a>
+                        <p class="menu-item"><a href="#" class="me-3">Cart</a></p>
+                        <p class="menu-item"><a href="#" class="me-3">Information</a></p>
+                        <p class="menu-item current"><a href="#" class="fw-bold me-3">Shipping</a></p>
+                        <p class="menu-item"><a href="#" class="me-3">Payment</a>
                     </div>
                 </div>
                 <div>
-                    <p class="h4 my-4 form-title">Contact</p>
-                    <div class="pb-3">
-                        <div class="border-gray p-4">
-                            <p class="no-margin">Email</p>
+                    <p class="mb-3 form-title">Contact</p>
+                    <div class="mb-4">
+                        <div class="border-gray p-3">
+                            <p class="no-margin">Contact</p>
                             <div class="checkout-details d-flex align-items-start">
                                 <p class="justify-content-start no-margin">eosuganob@gmail.com</p>
                                 <button class="justify-content-end btn return-btn no-margin">Change</button>
                             </div>
                             <p class="gray-line"></p>
-                            <p class="no-margin">Address</p>
+                            <p class="no-margin">Ship to</p>
                             <div class="checkout-details d-flex align-items-start">
                                 <p class="justify-content-start no-margin">084 Area 1-A Luzon Avenue, Matandang Balara, 1119 Quezon City, Philippines</p>
                                 <button class="justify-content-end btn return-btn no-margin">Change</button>
                             </div>
                         </div>
                     </div>
-                    <p class="h4 my-4 form-title">Shipping Method</p>
-                    <div class="border-gray p-4" style="background-color: #DADADA; border: 2px solid #909090;">
+                    <p class="h4 mb-3 form-title">Shipping Method</p>
+                    <div class="border-gray p-3" style="background-color: #DADADA; border: 1px solid #909090;">
                         <div class="checkout-details">
                             <p class="justify-content-start no-margin">Shipping method</p>
                             <p class="justify-content-end no-margin">Free</p>
@@ -83,6 +84,8 @@
             </div>
         </div>
     </div>
+
+    
 
     <!-- Footer File -->
     <?php include 'footer.php';?>

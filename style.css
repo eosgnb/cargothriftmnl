@@ -56,7 +56,51 @@
   .checkout {
     margin-top: 10%;
   }
+<<<<<<< Updated upstream
 >>>>>>> 96db05bfbd9f773c395b81b6f90df72c0e2e17c8
+=======
+
+  /* Payment Page */
+  .payment-option {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .payment-option input[type="radio"] {
+    display: none;
+  }
+
+  .payment-option label {
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+
+  .payment-option .payment-option-content {
+    padding: 0 15px;
+    font-size: 12px; /* Adjust the font size as needed */
+  }
+
+  .payment-option input[type="radio"] + label::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #DADADA;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  .payment-option input[type="radio"]:checked + label::before {
+    background-color: #22241B;
+  }
+>>>>>>> Stashed changes
 }
 
 
@@ -253,7 +297,7 @@ p {
 
 /* Information CSS */
 .logo img {
-  height: 150px;
+  height: 80px;
   width: auto;
 }
 
@@ -262,15 +306,32 @@ p {
   justify-content: left;
 }
 
-.menu-item.current {
-  font-weight: bold;
-}
-
-.menu-item {
+.menu-item .me-3 {
   margin-right: 10px;
   font-weight: normal;
   color: #22241B;
   text-decoration: none; 
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.current a {
+  color: #22241B;
+  text-decoration: none;
+  border-bottom: .125em solid #A6AC91;
+  box-shadow: inset 0 -0.125em 0 #A6AC91;
+  transition: box-shadow 270ms cubic-bezier(0.77, 0, 0.175, 1), color 270ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.current a:hover {
+  box-shadow: inset 0 -1.125em 0 #A6AC91;
+}
+
+.current a:focus {
+  background: #f7f7f7;
+  outline: none;
+  background: #A6AC91;
+  color: #f7f7f7;
+  box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.2);
 }
 
 .form-group {
@@ -301,6 +362,8 @@ p {
 
 .form-title {
   font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 }
 
 .button-group {
@@ -323,6 +386,9 @@ p {
 
 .return-btn {
   text-decoration: underline;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
 }
 
 .btn:focus {
@@ -660,6 +726,7 @@ p {
 .checkout-item-border {
   padding: 10px;
   background-color: #EEEEEE;
+  border-radius: 5px;
 }
 
 .checkout-details {
@@ -675,7 +742,7 @@ p {
 }
 
 .checkout-details p {
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .checkout-pricing-details {
@@ -687,7 +754,8 @@ p {
 }
 
 .border-gray {
-  border: 2px solid #DADADA;
+  border: 1px solid #DADADA;
+  border-radius: 5px;
 }
 
 .col-lg-5 {
@@ -696,15 +764,16 @@ p {
 }
 
 .gray-line {
-  border-bottom: 2px solid #DADADA;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+  border-bottom: 1px solid #DADADA;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .no-margin {
   margin: 0;
 }
 
+<<<<<<< Updated upstream
 >>>>>>> 96db05bfbd9f773c395b81b6f90df72c0e2e17c8
 
 /* #images {
@@ -717,161 +786,25 @@ p {
     width:500px;
     overflow:hidden;
     text-align:center;
+=======
+label {
+  float: left !important;
+>>>>>>> Stashed changes
 }
 
-.main-container1 {
-    width: 100%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 600px;
-  }
-
-
-.pants1 {
-    position: relative;
-    top: -100px;
-    width: 200px;
-    height: 50px;
-    border: none;
-    background-color: #606C38;
-    color: white;
-    font-family: Open Sans;
-    border-radius: 5px;
-    text-align: center;
-}
-.pants2 {
-    position: relative;
-    top: -100px;
-    width: 200px;
-    height: 50px;
-    border: none;
-    background-color: #606C38;
-    color: white;
-    font-family: Open Sans;
-    border-radius: 5px;
-    text-align: center;
-}
-.pants3 {
-    position: relative;
-    top: -100px;
-    width: 200px;
-    height: 50px;
-    border: none;
-    background-color: #606C38;
-    color: white;
-    font-family: Open Sans;
-    border-radius: 5px;
-    text-align: center;
+.card-header {
+  background-color: #ECECEC;
+  border: 1px solid #ECECEC;
+  border-radius: 10px;
+  margin: 1px;
 }
 
-.pants1:hover {
-    background-color: #606C38;
-    transform: scale(1.125);
-  }
-  .pants1:active {
-    transform: scale(1.025);
-  }
-  .pants2:hover {
-    background-color: #606C38;
-    transform: scale(1.125);
-  }
-  .pants2:active {
-    transform: scale(1.025);
-  }
-  .pants3:hover {
-    background-color: #606C38;
-    transform: scale(1.125);
-  }
-  .pants3:active {
-    transform: scale(1.025);
-  }
-
-.slider img{
-    display: flex;
-    background-size: cover;
-    width: 500px;
-    height: 500px;
-    padding: 45px;
-    border-radius: 20px;
+.payment-section, .address-section{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
-.main-container {
-    width: 100%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    height: 600px;
-    margin-top: -79px;
-  }
-
-.container1 {
-    position: relative;
-    float: left;
-    display: flex;
-    background-color: white;
+.highlight-border {
+  border: 2px solid #22241B;
+  border-radius: 10px;
 }
-.container2 {
-    float: right;
-    display: flex;
-    background-color: white;
-}
-
-.text {
-    font-size: 20px;
-    padding-left: 20px;
-    margin-top: 10px;
-  }
-
-.text h1{
-    font-size: 35px;
-    padding-left: 5px;
-    color: black;
-    font-family: Oswald;   
-  }
-
-  .text h3{
-    font-size: 18px;
-    padding-left: 5px;
-    color: black;
-    padding: 5px;
-    font-family: Montserrat;
-  }
-
-
-.button-73 {
-    appearance: none;
-    background-color: #fde5a7;
-    border-radius: 10px;
-    border-style: none;
-    box-sizing: border-box;
-    color: #000000;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: -.24px;
-    margin: 0;
-    outline: none;
-    padding: 1rem 1.3rem;
-    quotes: auto;
-    text-align: center;
-    text-decoration: none;
-    transition: all .15s;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    margin-left: 350px;
-    margin-top: -50px;
-  }
-  
-  .button-73:hover {
-    background-color: #fde5a7;
-    transform: scale(1.125);
-  }
-  .button-73:active {
-    transform: scale(1.025);
-  } */
-
- 

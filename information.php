@@ -5,22 +5,23 @@
     <!-- Navigation File -->
     <?php include 'navigation.php';?>
 
-    <div class="container pt-4">
+    <!-- Information page -->
+    <div class="container">
         <div class="row justify-content-center g-2 align-items-lg-start">
             <div class="col-lg-7 p-5">
                 <div class="logo pb-3">
                     <img src="./images/logo.png" alt="CARGOTHRIFT.MNL Logo">
                 </div>
-                <div class="info-nav pb-3">
+                <div class="info-nav mt-2 mb-4">
                     <div class="navigation-menu">
-                        <a href="#" class="menu-item">Cart</a>
-                        <a href="#" class="menu-item current">Information</a>
-                        <a href="#" class="menu-item">Shipping</a>
-                        <a href="#" class="menu-item">Payment</a>
+                        <p class="menu-item"><a href="" class="me-3">Cart</a></p>
+                        <p class="menu-item current"><a href="information.php" class="fw-bold me-3">Information</a></p>
+                        <p class="menu-item"><a href="shipping.php" class="me-3">Shipping</a></p>
+                        <p class="menu-item"><a href="payment.php" class=" me-3">Payment</a>
                     </div>
                 </div>
                 <div>
-                    <p class="h3 my-4 form-title">Contact</p>
+                    <p class="my-4 form-title">Contact</p>
                     <form class="pb-2">
                         <div class="form-group">
                             <label for="firstName">Email</label>
@@ -29,7 +30,7 @@
                     </form>
                 </div>
                 <div>
-                    <p class="h3 my-4 form-title">Shipping Address</p>
+                    <p class="my-4 form-title">Shipping Address</p>
                     <form class="pb-2">
                         <div class="form-group row">
                             <div class="col-md-6">
