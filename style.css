@@ -174,8 +174,8 @@ body {
   background-image: linear-gradient(rgba(5, 0, 2, 0.622), rgba(0, 0, 0, 0.5)), url("./images/cargopants.jpg");
   height: auto;
   border-radius: 0%;
-  padding: 135px 40px 60px;
-  margin: auto;
+  padding: 90px 40px 60px;
+  margin-top: 40px;
 }
 
 .display-1 {
