@@ -4,9 +4,9 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .navbar {
-    padding: 20px !important;
+    padding: 10px !important;
   }
 
   .display-1 {
@@ -17,6 +17,10 @@ body {
   .h5 {
     font-size: 1.1rem;
     line-height: 1.4;
+  }
+
+  .product-category {
+    margin-bottom: 18px;
   }
 
   .product-item img {
@@ -64,6 +68,12 @@ body {
   
 .checkout {
     margin-top: 10%;
+}
+
+@media (max-width: 320px) {
+  .display-1 {
+    font-size: 2.9rem;
+  }
 }
 
   /* Payment Page */
@@ -164,14 +174,13 @@ body {
   background-image: linear-gradient(rgba(5, 0, 2, 0.622), rgba(0, 0, 0, 0.5)), url("./images/cargopants.jpg");
   height: auto;
   border-radius: 0%;
-  padding: 130px 40px 60px;
+  padding: 140px 40px 60px;
   margin: auto;
 }
 
 .display-1 {
   font-weight: 700;
   color: #F7F7F7;
-  /* max-width: 70%; */
 }
 
 .green-line {
@@ -194,6 +203,7 @@ body {
   border: none;
   border-radius: 0px;
   text-decoration: none;
+  padding: 0;
   transition: background-color 0.3s ease;
 }
 
@@ -207,6 +217,10 @@ body {
 .prod-cat-btn:hover {
   background-color: #30361C;
   color: #F7F7F7;
+}
+
+.product-categories {
+  padding: 30px;
 }
 
 .image-box {
@@ -230,7 +244,8 @@ body {
 }
 
 .prod-cat-btn {
-  padding: 15px 90px;
+  width: 200px;
+  height: 70px;
   font-size: 30px;
 }
 
