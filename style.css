@@ -306,21 +306,21 @@ p {
 }
 
 .current a {
-  color: #22241B;
+  color: #F7F7F7;
   text-decoration: none;
-  border-bottom: .125em solid #A6AC91;
-  box-shadow: inset 0 -0.125em 0 #A6AC91;
+  border-bottom: .125em solid #B5BAA4;
+  box-shadow: inset 0 -0.125em 0 #B5BAA4;
   transition: box-shadow 270ms cubic-bezier(0.77, 0, 0.175, 1), color 270ms cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 .current a:hover {
-  box-shadow: inset 0 -1.125em 0 #A6AC91;
+  box-shadow: inset 0 -1.125em 0 #B5BAA4;
 }
 
 .current a:focus {
   background: #f7f7f7;
   outline: none;
-  background: #A6AC91;
+  background: #B5BAA4;
   color: #f7f7f7;
   box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.2);
 }
@@ -373,6 +373,10 @@ p {
   border: none;
   border-radius: 0px;
   text-decoration: none;
+}
+
+.button-group button:hover {
+  color: #F7F7F7;
 }
 
 .return-btn {
@@ -794,6 +798,6 @@ label {
 }
 
 .highlight-border {
-  border: 2px solid #22241B;
+  border: 1px solid #22241B;
   border-radius: 10px;
 }
