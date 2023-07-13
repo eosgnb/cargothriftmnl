@@ -1,8 +1,19 @@
+body {
+  overflow-x: hidden;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
 @media (max-width: 576px) {
+  .navbar {
+    padding: 20px !important;
+  }
+
   .display-1 {
-      font-size: 3rem;
+      font-size: 4rem;
       line-height: 1.2;
   }
+
   .h5 {
       font-size: 1.5rem;
       line-height: 1.4;
@@ -32,21 +43,15 @@
     text-decoration: none;
   }
 
-.column {
+  .column {
     width: 100%;
     display: block;
     margin-bottom: 20px;
-}
+  }
 
-.row h3, h2 {
+  .row h3, h2 {
     font-size: 20px;
     line-height: 1.2;
-}
-
-body {
-  overflow-x: hidden;
-  background-color: white;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .row #images1  {
@@ -57,7 +62,6 @@ body {
     height: auto;
 }
   
-
 .checkout {
     margin-top: 10%;
 }
