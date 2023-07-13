@@ -10,13 +10,13 @@ body {
   }
 
   .display-1 {
-      font-size: 4rem;
-      line-height: 1.2;
+    font-size: 3.5rem;
+    line-height: 1.2;
   }
 
   .h5 {
-      font-size: 1.5rem;
-      line-height: 1.4;
+    font-size: 1.1rem;
+    line-height: 1.4;
   }
 
   .product-item img {
@@ -117,15 +117,20 @@ body {
   background-color: #22241B;
 }
 
+.navbar-hidden {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
 .nav-link {
-  color: #ffffff;
+  color: #F7F7F7;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 100;
 }
 
 .navbar-brand {
-  color: #ffffff;
+  color: #B7C48D;
 }
 
 .navbar-nav .nav-link {
@@ -141,7 +146,7 @@ body {
 
 .navbar-brand:hover,
 .navbar-brand:focus {
-  color: #ffffff; 
+  color: #F7F7F7; 
   text-decoration: none; 
 }
 
@@ -157,19 +162,27 @@ body {
 
 .jumbotron {
   background-image: linear-gradient(rgba(5, 0, 2, 0.622), rgba(0, 0, 0, 0.5)), url("./images/cargopants.jpg");
-  height: 600px;
+  height: auto;
   border-radius: 0%;
-  padding: 100px 80px;
+  padding: 130px 40px 60px;
+  margin: auto;
 }
 
 .display-1 {
-  font-family: 'Oswald', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   color: #F7F7F7;
+  /* max-width: 70%; */
+}
+
+.green-line {
+  border: 3px solid #B7C48D;
+  height: 3px;
+  width: 50%;
 }
 
 .h5 {
   color: #F7F7F7;
+  font-family: 'Roboto', sans-serif;
   font-weight: lighter;
 }
 
