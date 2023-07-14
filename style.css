@@ -1,6 +1,5 @@
 body {
   overflow-x: hidden;
-  background-color: #F7F7F7;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -66,6 +65,11 @@ body {
   .row h3, h2 {
     font-size: 20px;
     line-height: 1.2;
+  }
+
+  .form-group.row .col-md-6:first-child {
+    margin-bottom: 15px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -74,60 +78,10 @@ body {
   }
 }
 
-.row #images1  {
-    position: relative;
-    right: 120px;
-    bottom: 125px;
-    width: 87%;
-    height: auto;
-}
-  
-.checkout {
-    margin-top: 10%;
-}
-
-/*  Payment Page */
-.payment-option {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  padding: 10px;
-}
-.payment-option input[type="radio"] {
-  display: none;
-}
-
-.payment-option label {
-  cursor: pointer;
-  font-weight: bold;
-  margin-left: 10px;
-  font-size: 14px; 
-}
-
-.payment-option .payment-option-content {
-  padding: 0 15px;
-  font-size: 12px; 
-}
-
-.payment-option input[type="radio"] + label::before {
-  content: "";
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border: 2px solid #DADADA;
-  border-radius: 50%;
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
-.payment-option input[type="radio"]:checked + label::before {
-    background-color: #22241B;
-  }
-}
-
-/* Navigation */
+/*===================================
+ *         Navigation Bar
+ *===================================
+ */
 .navbar {
   padding: 15px 50px;
   background-color: #22241B;
@@ -168,8 +122,27 @@ body {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/* Homepage (Index) */
-.jumbotron {
+/*===================================
+ *         Footer Section
+ *===================================
+ */
+ .footer-items a {
+  color: #F7F7F7;
+  text-decoration: none;
+}
+.footer-items a:hover {
+  color: #22241B;
+  transition: color 0.2s ease;
+}
+.copyright {
+  color: #B5BAA4;
+}
+
+/*===================================
+ *        Homepage (Index)
+ *===================================
+ */
+ .jumbotron {
   background-image: linear-gradient(rgba(5, 0, 2, 0.622), rgba(0, 0, 0, 0.5)), url("./images/cargopants.jpg");
   height: auto;
   border-radius: 0%;
@@ -239,20 +212,67 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
-/* Products Page */
+.row #images1  {
+    position: relative;
+    right: 120px;
+    bottom: 125px;
+    width: 87%;
+    height: auto;
+}
+  
+.checkout {
+    margin-top: 10%;
+}
+
+/*===================================
+ *          Payment Page
+ *===================================
+ */
+.payment-option {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.payment-option input[type="radio"] {
+  display: none;
+}
+.payment-option label {
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 14px; 
+}
+.payment-option 
+.payment-option-content {
+  padding: 0 15px;
+  font-size: 12px; 
+}
+.payment-option input[type="radio"] + label::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #DADADA;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.payment-option input[type="radio"]:checked + label::before {
+    background-color: #22241B;
+}
+
+/*===================================
+ *         Products Page
+ *===================================
+ */
 .prod-cat-btn {
   width: 200px;
   height: 70px;
   font-size: 30px;
 }
-/* .image-text-container {
-  display: flex;
-  align-items: center;
-}
-.image-text-container img {
-  max-width: 100%;
-  margin-right: 10px;
-} */
 .product-gallery {
   max-width: 80%;
   margin-top: 8%;
@@ -298,25 +318,45 @@ body {
   color: #DDA15E;
 }
 
-/* Information CSS */
-.logo img {
-  height: 80px;
-  width: auto;
+/*===================================
+ *         Information Page
+ *===================================
+ */
+.form-group {
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+.form-group.row .col-md-6 label {
+  display: block;
+}
+.form-group label {
+  margin-bottom: 5px;
+}
+.form-group input[type="text"] {
+  width: 100%;
+}
+.form-control, .btn {
+  border-radius: 5px;
+}
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
 }
 
+/*===================================
+ *       Checkout Navigation
+ *===================================
+ */
 .navigation-menu {
   display: flex;
   justify-content: left;
 }
-
 .menu-item .me-3 {
   margin-right: 10px;
   font-weight: normal;
   color: #22241B;
-  text-decoration: none; 
-  font-family: 'Roboto', sans-serif !important;
+  text-decoration: none;
 }
-
 .current a {
   color: #F7F7F7;
   text-decoration: none;
@@ -324,11 +364,9 @@ body {
   box-shadow: inset 0 -0.125em 0 #B5BAA4;
   transition: box-shadow 270ms cubic-bezier(0.77, 0, 0.175, 1), color 270ms cubic-bezier(0.77, 0, 0.175, 1);
 }
-
 .current a:hover {
   box-shadow: inset 0 -1.125em 0 #B5BAA4;
 }
-
 .current a:focus {
   background: #f7f7f7;
   outline: none;
@@ -336,39 +374,26 @@ body {
   color: #f7f7f7;
   box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.2);
 }
-
-.form-group {
-  margin-bottom: 15px;
-  font-family: 'Roboto', sans-serif;
+.information, 
+.shipping,
+.payment {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.logo img {
+  height: 80px;
+  width: auto;
 }
 
-.form-group.row .col-md-6 label {
-  display: block;
-}
-
-.form-group label {
-  margin-bottom: 5px;
-}
-
-.form-group input[type="text"] {
-  width: 100%;
-}
-
-.form-control, .btn {
-  border-radius: 0px;
-}
-
-.form-control:focus {
-  outline: none;
-  box-shadow: none;
-}
-
+/*===================================
+ *         Checkout Page
+ *===================================
+ */
 .form-title {
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
-
 .button-group {
   display: flex;
   justify-content: space-between;
@@ -377,30 +402,42 @@ body {
   margin-top: 30px;
   font-family: 'Roboto', sans-serif;
 }
-
 .submit-btn {
   background-color: #606C38;
   color: #F7F7F7;
   font-family: 'Roboto', sans-serif;
   border: none;
-  border-radius: 0px;
+  border-radius: 5px;
   text-decoration: none;
 }
-
 .button-group button:hover {
   color: #F7F7F7;
 }
-
 .return-btn {
   text-decoration: underline;
   padding: 0;
   margin: 0;
   font-size: 15px;
 }
-
 .btn:focus {
   outline: none;
   box-shadow: none;
+}
+.border-gray {
+  border: 1px solid #DADADA;
+  border-radius: 5px;
+}
+.col-lg-5 {
+  flex: 1;
+  overflow-y: auto;
+}
+.gray-line {
+  border-bottom: 1px solid #DADADA;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+.no-margin {
+  margin: 0;
 }
 
 /* Sidebar CSS */
@@ -726,17 +763,19 @@ body {
   pointer-events: auto;
 }
 
+/*===================================
+ *      Checkout Items Preview
+ *===================================
+ */
 .checkout-img {
   max-width: 15%; 
   height: auto; 
 }
-
 .checkout-item-border {
   padding: 10px;
   background-color: #EEEEEE;
   border-radius: 5px;
 }
-
 .checkout-details {
   display: flex;
   justify-content: space-between;
@@ -744,42 +783,20 @@ body {
   width: 100%;
   font-family: 'Roboto', sans-serif;
 }
-
 .checkout-item {
   padding: 20px;
 }
-
 .checkout-details p {
   font-size: 16px;
 }
-
 .checkout-pricing-details {
   margin: 40px;
 }
-
 .checkout {
   margin-top: 20%;
 }
 
-.border-gray {
-  border: 1px solid #DADADA;
-  border-radius: 5px;
-}
 
-.col-lg-5 {
-  flex: 1;
-  overflow-y: auto;
-}
-
-.gray-line {
-  border-bottom: 1px solid #DADADA;
-  padding-bottom: 8px;
-  margin-bottom: 8px;
-}
-
-.no-margin {
-  margin: 0;
-}
 
 #images {
     float:left;
@@ -793,38 +810,25 @@ body {
     text-align:center;
 }
 
+/*===================================
+ *           Payment Page
+ *===================================
+ */
 label {
   float: left !important;
 }
-
 .card-header {
   background-color: #ECECEC;
   border: 1px solid #ECECEC;
   border-radius: 10px;
   margin: 1px;
 }
-
 .payment-section, .address-section{
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
-
 .highlight-border {
   border: 1px solid #22241B;
   border-radius: 10px;
 }
 
-/* Footer Section */
-.footer-items a {
-  color: #F7F7F7;
-  text-decoration: none;
-}
-
-.footer-items a:hover {
-  color: #22241B;
-  transition: color 0.2s ease;
-}
-
-.copyright {
-  color: #B5BAA4;
-}
