@@ -42,9 +42,10 @@
     <div class="container-fluid product-gallery">
         <h1 class="display-4 d-flex justify-content-center p-2">CARGO PANTS</h1>
         <div class="row">
+            <!-- Cargo Pants Product 1 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="product-item col-12">
-                    <a href="#popup1" class="product-link">
+                    <a href="#cpProduct1" class="product-link" data-bs-toggle="modal" data-bs-target="#cpProduct1Modal">
                         <img class="img-fluid" src="./images/products/cargo-pants/cp-product-1.jpg" alt="Product 1">
                         <div class="product-details">
                             <div class="product-info">
@@ -52,95 +53,115 @@
                                 <p class="product-price">₱400</p>
                             </div>
                         </div>
-                        <!-- Popup -->
-                        <div id="popup1" class="overlay">
-                            <div class="popup">
+                     </a>
+                    
+                    <!-- Popup -->
+                    <div class="modal fade" id="cpProduct1Modal" tabindex="-1" aria-labelledby="cpProduct1ModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content rounded-0">
+                            <div class="modal-header">
+                            <h4 class="modal-title" id="cpProduct1ModalLabel">AEROPOSTALE CARGO</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <div class="container-fluid">
                                 <div class="row">
-                                    <div class="col-sm-2 w-50 p-2 text-center ">
-                                        <h2>AEROPOSTALE CARGO</h2>
+                                <div class="col-md-6 d-flex align-items-center popup-image">
+                                    <img class="img-fluid" src="./images/products/cargo-pants/cp-product-1.jpg" alt="Product 1">
+                                </div>
+                                <div class="col-md-6 p-3 ms-auto">
+                                    <p class="display-5 d-flex justify-content-end">₱400</p>
+                                    <button onclick="window.location.href='cargo.html'" class="btn add-to-cart">ADD TO CART</button>
+                                    <div class="container-fluid mt-3">
+                                        <div class="row">
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Width</p>
+                                            <p class="m-0 fw-bold">31"</p>
+                                        </div>
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Length</p>
+                                            <p class="m-0 fw-bold">38"</p>
+                                        </div>
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Leg Opening</p>
+                                            <p class="m-0 fw-bold">10"</p>
+                                        </div>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-2 w-50 p-2 text-center">
-                                        <h3>₱400</h3>
+                                    <div class="d-flex m-3 align-items-center justify-content-center">
+                                        <img class="img-fluid sizing-guide" src="./images/sizing-guide.png" alt="Product 1">
                                     </div>
                                 </div>
-                                <a class="close" href="#">&times;</a>
-                                <div class="content">
-                                    <div class="row">
-                                        <div class="col-sm-2 w-50 h-50">
-                                            <img id="images" src="./images/products/cargo-pants/cp-product-1.jpg" alt="Product 1">
-                                        </div>
-                                        <div class="col-sm-2 w-50 h-50 text-center">
-                                            <button onclick="window.location.href='shop.html'" class="popup-button">ADD TO CART</button>
-                                            <div class="popup-details">
-                                                <p>Details:</p>
-                                                <p>Waist: 31”</p>
-                                                <p>Length: 38”</p>
-                                                <p>Leg Opening: 10”</p>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-2 w-100 p-1">
-                                                    <img id="images1" class="img-fluid" src="Images/sizing-guide.png" alt="Photo">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
+                            </div>
                         </div>
-                    </a>
+                        </div>
+                    </div>  
                 </div>
             </div>
+            <!-- Cargo Pants Product 2 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="product-item">
-                    <a href="#popup2" class="product-link">
-                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-2.jpg" alt="Product 1">
+                    <a href="#cpProduct2" class="product-link" data-bs-toggle="modal" data-bs-target="#cpProduct2Modal">
+                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-2.jpg" alt="Product 2">
                         <div class="product-details">
                             <div class="product-info">
                                 <h5 class="product-name">DOCKERS CARGO</h5>
                                 <p class="product-price">₱350</p>
                             </div>
                         </div>
-                         <!-- Popup -->
-                        <div id="popup2" class="overlay">
-                            <div class="popup">
+                     </a>
+                    
+                    <!-- Popup -->
+                    <div class="modal fade" id="cpProduct2Modal" tabindex="-1" aria-labelledby="cpProduct2ModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content rounded-0">
+                            <div class="modal-header">
+                            <h4 class="modal-title" id="cpProduct2ModalLabel">DOCKERS CARGO</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <div class="container-fluid">
                                 <div class="row">
-                                    <div class="col-sm-2 w-50 p-2 text-center ">
-                                        <h2>DOCKERS CARGO</h2>
+                                <div class="col-md-6 d-flex align-items-center popup-image">
+                                    <img class="img-fluid" src="./images/products/cargo-pants/cp-product-2.jpg" alt="Product 1">
+                                </div>
+                                <div class="col-md-6 p-3 ms-auto">
+                                    <p class="display-5 d-flex justify-content-end">₱350</p>
+                                    <button onclick="window.location.href='cargo.html'" class="btn add-to-cart">ADD TO CART</button>
+                                    <div class="container-fluid mt-3">
+                                        <div class="row">
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Width</p>
+                                            <p class="m-0 fw-bold">31"</p>
+                                        </div>
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Length</p>
+                                            <p class="m-0 fw-bold">38"</p>
+                                        </div>
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Leg Opening</p>
+                                            <p class="m-0 fw-bold">10"</p>
+                                        </div>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-2 w-50 p-2 text-center">
-                                        <h3>₱350</h3>
+                                    <div class="d-flex m-3 align-items-center justify-content-center">
+                                        <img class="img-fluid sizing-guide" src="./images/sizing-guide.png" alt="Product 1">
                                     </div>
                                 </div>
-                                <a class="close" href="#">&times;</a>
-                                <div class="content">
-                                    <div class="row">
-                                        <div class="col-sm-2 w-50 h-50">
-                                            <img id="images" src="./images/products/cargo-pants/cp-product-2.jpg" alt="Product 2">
-                                        </div>
-                                        <div class="col-sm-2 w-50 h-50 text-center">
-                                            <button onclick="window.location.href='shop.html'" class="popup-button">ADD TO CART</button>
-                                            <div class="popup-details">
-                                                <p>Details:</p>
-                                                <p>Waist: 31”</p>
-                                                <p>Length: 38”</p>
-                                                <p>Leg Opening: 10”</p>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-2 w-100 p-1">
-                                                    <img id="images1" class="img-fluid" src="Images/sizing-guide.png" alt="Photo">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
+                            </div>
                         </div>
-                    </a>
+                        </div>
+                    </div>  
                 </div>
             </div>
+            <!-- Cargo Pants Product 3 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="product-item">
-                    <a href="#popup3" class="product-link">
+                    <a href="#cpProduct3" class="product-link" data-bs-toggle="modal" data-bs-target="#cpProduct3Modal">
                         <img class="img-fluid" src="./images/products/cargo-pants/cp-product-3.jpg" alt="Product 3">
                         <div class="product-details">
                             <div class="product-info">
@@ -148,334 +169,404 @@
                                 <p class="product-price">₱350</p>
                             </div>
                         </div>
-                        <!-- Popup -->
-                        <div id="popup3" class="overlay">
-                            <div class="popup">
+                    </a>
+
+                    <!-- Popup -->
+                    <div class="modal fade" id="cpProduct3Modal" tabindex="-1" aria-labelledby="cpProduct3ModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content rounded-0">
+                            <div class="modal-header">
+                            <h4 class="modal-title" id="cpProduct3ModalLabel">WRANGLER CARGO</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <div class="container-fluid">
                                 <div class="row">
-                                    <div class="col-sm-2 w-50 p-2 text-center ">
-                                        <h2>WRANGLER CARGO</h2>
+                                <div class="col-md-6 d-flex align-items-center popup-image">
+                                    <img class="img-fluid" src="./images/products/cargo-pants/cp-product-3.jpg" alt="Product 1">
+                                </div>
+                                <div class="col-md-6 p-3 ms-auto">
+                                    <p class="display-5 d-flex justify-content-end">₱350</p>
+                                    <button onclick="window.location.href='cargo.html'" class="btn add-to-cart">ADD TO CART</button>
+                                    <div class="container-fluid mt-3">
+                                        <div class="row">
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Width</p>
+                                            <p class="m-0 fw-bold">31"</p>
+                                        </div>
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Length</p>
+                                            <p class="m-0 fw-bold">38"</p>
+                                        </div>
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Leg Opening</p>
+                                            <p class="m-0 fw-bold">10"</p>
+                                        </div>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-2 w-50 p-2 text-center">
-                                        <h3>₱350</h3>
+                                    <div class="d-flex m-3 align-items-center justify-content-center">
+                                        <img class="img-fluid sizing-guide" src="./images/sizing-guide.png" alt="Product 1">
                                     </div>
                                 </div>
-                                <a class="close" href="#">&times;</a>
-                                <div class="content">
-                                    <div class="row">
-                                        <div class="col-sm-2 w-50 h-50">
-                                            <img id="images" src="./images/products/cargo-pants/cp-product-3.jpg" alt="Product 2">
-                                        </div>
-                                        <div class="col-sm-2 w-50 h-50 text-center">
-                                            <button onclick="window.location.href='shop.html'" class="popup-button">ADD TO CART</button>
-                                            <div class="popup-details">
-                                                <p>Details:</p>
-                                                <p>Waist: 31”</p>
-                                                <p>Length: 38”</p>
-                                                <p>Leg Opening: 10”</p>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-2 w-100 p-1">
-                                                    <img id="images1" class="img-fluid" src="Images/sizing-guide.png" alt="Photo">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
+                            </div>
                         </div>
-                    </a>
+                        </div>
+                    </div>  
                 </div>
             </div>
+            <!-- Cargo Pants Product 4 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="product-item">
-                    <a href="#popup4" class="product-link">
+                    <a href="#cpProduct4" class="product-link" data-bs-toggle="modal" data-bs-target="#cpProduct4Modal">
                         <img class="img-fluid" src="./images/products/cargo-pants/cp-product-4.jpg" alt="Product 4">
                         <div class="product-details">
                             <div class="product-info">
-                                <h5 class="product-name">CAMOU CARGO</h5>
+                                <h5 class="product-name">WRANGLER CARGO</h5>
                                 <p class="product-price">₱350</p>
                             </div>
                         </div>
-                        <!-- Popup -->
-                        <div id="popup4" class="overlay">
-                            <div class="popup">
+                    </a>
+
+                    <!-- Popup -->
+                    <div class="modal fade" id="cpProduct4Modal" tabindex="-1" aria-labelledby="cpProduct4ModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content rounded-0">
+                            <div class="modal-header">
+                            <h4 class="modal-title" id="cpProduct4ModalLabel">WRANGLER CARGO</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <div class="container-fluid">
                                 <div class="row">
-                                    <div class="col-sm-2 w-50 p-2 text-center ">
-                                        <h2>CAMOU CARGO</h2>
+                                <div class="col-md-6 d-flex align-items-center popup-image">
+                                    <img class="img-fluid" src="./images/products/cargo-pants/cp-product-4.jpg" alt="Product 1">
+                                </div>
+                                <div class="col-md-6 p-3 ms-auto">
+                                    <p class="display-5 d-flex justify-content-end">₱350</p>
+                                    <button onclick="window.location.href='cargo.html'" class="btn add-to-cart">ADD TO CART</button>
+                                    <div class="container-fluid mt-3">
+                                        <div class="row">
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Width</p>
+                                            <p class="m-0 fw-bold">31"</p>
+                                        </div>
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Length</p>
+                                            <p class="m-0 fw-bold">38"</p>
+                                        </div>
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Leg Opening</p>
+                                            <p class="m-0 fw-bold">10"</p>
+                                        </div>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-2 w-50 p-2 text-center">
-                                        <h3>₱350</h3>
+                                    <div class="d-flex m-3 align-items-center justify-content-center">
+                                        <img class="img-fluid sizing-guide" src="./images/sizing-guide.png" alt="Product 1">
                                     </div>
                                 </div>
-                                <a class="close" href="#">&times;</a>
-                                <div class="content">
-                                    <div class="row">
-                                        <div class="col-sm-2 w-50 h-50">
-                                            <img id="images" src="./images/products/cargo-pants/cp-product-4.jpg" alt="Product 4">
-                                        </div>
-                                        <div class="col-sm-2 w-50 h-50 text-center">
-                                            <button onclick="window.location.href='shop.html'" class="popup-button">ADD TO CART</button>
-                                            <div class="popup-details">
-                                                <p>Details:</p>
-                                                <p>Waist: 31”</p>
-                                                <p>Length: 38”</p>
-                                                <p>Leg Opening: 10”</p>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-2 w-100 p-1">
-                                                    <img id="images1" class="img-fluid" src="Images/sizing-guide.png" alt="Photo">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
+                            </div>
                         </div>
-                    </a>
+                        </div>
+                    </div>  
                 </div>
             </div>
+            <!-- Cargo Pants Product 5 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="product-item">
-                    <a href="#popup5" class="product-link">
-                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-5.jpg" alt="Product 6">
+                    <a href="#cpProduct5" class="product-link" data-bs-toggle="modal" data-bs-target="#cpProduct5Modal">
+                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-5.jpg" alt="Product 5">
                         <div class="product-details">
                             <div class="product-info">
                                 <h5 class="product-name">AMERICAN EAGLE CARGO</h5>
                                 <p class="product-price">₱550</p>
                             </div>
                         </div>
-                        <!-- Popup -->
-                        <div id="popup5" class="overlay">
-                            <div class="popup">
+                    </a>
+
+                    <!-- Popup -->
+                    <div class="modal fade" id="cpProduct5Modal" tabindex="-1" aria-labelledby="cpProduct5ModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content rounded-0">
+                            <div class="modal-header">
+                            <h4 class="modal-title" id="cpProduct5ModalLabel">AMERICAN EAGLE CARGO</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <div class="container-fluid">
                                 <div class="row">
-                                    <div class="col-sm-2 w-50 p-2 text-center ">
-                                        <h2>AMERICAN EAGLE CARGO</h2>
+                                <div class="col-md-6 d-flex align-items-center popup-image">
+                                    <img class="img-fluid" src="./images/products/cargo-pants/cp-product-5.jpg" alt="Product 5">
+                                </div>
+                                <div class="col-md-6 p-3 ms-auto">
+                                    <p class="display-5 d-flex justify-content-end">₱550</p>
+                                    <button onclick="window.location.href='cargo.html'" class="btn add-to-cart">ADD TO CART</button>
+                                    <div class="container-fluid mt-3">
+                                        <div class="row">
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Width</p>
+                                            <p class="m-0 fw-bold">31"</p>
+                                        </div>
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Length</p>
+                                            <p class="m-0 fw-bold">38"</p>
+                                        </div>
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Leg Opening</p>
+                                            <p class="m-0 fw-bold">10"</p>
+                                        </div>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-2 w-50 p-2 text-center">
-                                        <h3>₱550</h3>
+                                    <div class="d-flex m-3 align-items-center justify-content-center">
+                                        <img class="img-fluid sizing-guide" src="./images/sizing-guide.png" alt="Product 1">
                                     </div>
                                 </div>
-                                <a class="close" href="#">&times;</a>
-                                <div class="content">
-                                    <div class="row">
-                                        <div class="col-sm-2 w-50 h-50">
-                                            <img id="images" src="./images/products/cargo-pants/cp-product-5.jpg" alt="Product 2">
-                                        </div>
-                                        <div class="col-sm-2 w-50 h-50 text-center">
-                                            <button onclick="window.location.href='shop.html'" class="popup-button">ADD TO CART</button>
-                                            <div class="popup-details">
-                                                <p>Details:</p>
-                                                <p>Waist: 31”</p>
-                                                <p>Length: 38”</p>
-                                                <p>Leg Opening: 10”</p>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-2 w-100 p-1">
-                                                    <img id="images1" class="img-fluid" src="Images/sizing-guide.png" alt="Photo">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
+                            </div>
                         </div>
-                    </a>
+                        </div>
+                    </div>  
                 </div>
             </div>
+            <!-- Cargo Pants Product 6 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="product-item">
-                    <a href="#popup6" class="product-link">
-                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-6.jpg" alt="Product 7">
+                    <a href="#cpProduct6" class="product-link" data-bs-toggle="modal" data-bs-target="#cpProduct6Modal">
+                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-6.jpg" alt="Product 6">
                         <div class="product-details">
                             <div class="product-info">
                                 <h5 class="product-name">ZARA CARGO</h5>
                                 <p class="product-price">₱350</p>
                             </div>
                         </div>
-                        <!-- Popup -->
-                        <div id="popup6" class="overlay">
-                            <div class="popup">
+                    </a>
+
+                    <!-- Popup -->
+                    <div class="modal fade" id="cpProduct6Modal" tabindex="-1" aria-labelledby="cpProduct6ModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content rounded-0">
+                            <div class="modal-header">
+                            <h4 class="modal-title" id="cpProduct6ModalLabel">ZARA CARGO</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <div class="container-fluid">
                                 <div class="row">
-                                    <div class="col-sm-2 w-50 p-2 text-center ">
-                                        <h2>ZARA CARGO</h2>
+                                <div class="col-md-6 d-flex align-items-center popup-image">
+                                    <img class="img-fluid" src="./images/products/cargo-pants/cp-product-6.jpg" alt="Product 6">
+                                </div>
+                                <div class="col-md-6 p-3 ms-auto">
+                                    <p class="display-5 d-flex justify-content-end">₱350</p>
+                                    <button onclick="window.location.href='cargo.html'" class="btn add-to-cart">ADD TO CART</button>
+                                    <div class="container-fluid mt-3">
+                                        <div class="row">
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Width</p>
+                                            <p class="m-0 fw-bold">31"</p>
+                                        </div>
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Length</p>
+                                            <p class="m-0 fw-bold">38"</p>
+                                        </div>
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Leg Opening</p>
+                                            <p class="m-0 fw-bold">10"</p>
+                                        </div>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-2 w-50 p-2 text-center">
-                                        <h3>₱350</h3>
+                                    <div class="d-flex m-3 align-items-center justify-content-center">
+                                        <img class="img-fluid sizing-guide" src="./images/sizing-guide.png" alt="Product 1">
                                     </div>
                                 </div>
-                                <a class="close" href="#">&times;</a>
-                                <div class="content">
-                                    <div class="row">
-                                        <div class="col-sm-2 w-50 h-50">
-                                            <img id="images" src="./images/products/cargo-pants/cp-product-6.jpg" alt="Product 2">
-                                        </div>
-                                        <div class="col-sm-2 w-50 h-50 text-center">
-                                            <button onclick="window.location.href='shop.html'" class="popup-button">ADD TO CART</button>
-                                            <div class="popup-details">
-                                                <p>Details:</p>
-                                                <p>Waist: 31”</p>
-                                                <p>Length: 38”</p>
-                                                <p>Leg Opening: 10”</p>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-2 w-100 p-1">
-                                                    <img id="images1" class="img-fluid" src="Images/sizing-guide.png" alt="Photo">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
+                            </div>
                         </div>
-                    </a>
+                        </div>
+                    </div>  
                 </div>
             </div>
+            <!-- Cargo Pants Product 7 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="product-item">
-                    <a href="#popup7" class="product-link">
-                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-7.jpg" alt="Product 8">
+                    <a href="#cpProduct7" class="product-link" data-bs-toggle="modal" data-bs-target="#cpProduct7Modal">
+                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-7.jpg" alt="Product 7">
                         <div class="product-details">
                             <div class="product-info">
                                 <h5 class="product-name">CAMOU CARGO</h5>
                                 <p class="product-price">₱400</p>
                             </div>
                         </div>
-                        <!-- Popup -->
-                        <div id="popup7" class="overlay">
-                            <div class="popup">
+                    </a>
+
+                    <!-- Popup -->
+                    <div class="modal fade" id="cpProduct7Modal" tabindex="-1" aria-labelledby="cpProduct7ModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content rounded-0">
+                            <div class="modal-header">
+                            <h4 class="modal-title" id="cpProduct7ModalLabel">CAMOU CARGO</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <div class="container-fluid">
                                 <div class="row">
-                                    <div class="col-sm-2 w-50 p-2 text-center ">
-                                        <h2>CAMOU CARGO</h2>
+                                <div class="col-md-6 d-flex align-items-center popup-image">
+                                    <img class="img-fluid" src="./images/products/cargo-pants/cp-product-7.jpg" alt="Product 7">
+                                </div>
+                                <div class="col-md-6 p-3 ms-auto">
+                                    <p class="display-5 d-flex justify-content-end">₱400</p>
+                                    <button onclick="window.location.href='cargo.html'" class="btn add-to-cart">ADD TO CART</button>
+                                    <div class="container-fluid mt-3">
+                                        <div class="row">
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Width</p>
+                                            <p class="m-0 fw-bold">31"</p>
+                                        </div>
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Length</p>
+                                            <p class="m-0 fw-bold">38"</p>
+                                        </div>
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Leg Opening</p>
+                                            <p class="m-0 fw-bold">10"</p>
+                                        </div>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-2 w-50 p-2 text-center">
-                                        <h3>₱400</h3>
+                                    <div class="d-flex m-3 align-items-center justify-content-center">
+                                        <img class="img-fluid sizing-guide" src="./images/sizing-guide.png" alt="Product 1">
                                     </div>
                                 </div>
-                                <a class="close" href="#">&times;</a>
-                                <div class="content">
-                                    <div class="row">
-                                        <div class="col-sm-2 w-50 h-50">
-                                            <img id="images" src="./images/products/cargo-pants/cp-product-7.jpg" alt="Product 2">
-                                        </div>
-                                        <div class="col-sm-2 w-50 h-50 text-center">
-                                            <button onclick="window.location.href='shop.html'" class="popup-button">ADD TO CART</button>
-                                            <div class="popup-details">
-                                                <p>Details:</p>
-                                                <p>Waist: 31”</p>
-                                                <p>Length: 38”</p>
-                                                <p>Leg Opening: 10”</p>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-2 w-100 p-1">
-                                                    <img id="images1" class="img-fluid" src="Images/sizing-guide.png" alt="Photo">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
+                            </div>
                         </div>
-                    </a>
+                        </div>
+                    </div>  
                 </div>
             </div>
+            <!-- Cargo Pants Product 8 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="product-item">
-                    <a href="#popup8" class="product-link">
-                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-9.jpg" alt="Product 9">
+                    <a href="#cpProduct8" class="product-link" data-bs-toggle="modal" data-bs-target="#cpProduct8Modal">
+                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-8.jpg" alt="Product 8">
                         <div class="product-details">
                             <div class="product-info">
                                 <h5 class="product-name">ZARA CAMOU CARGO</h5>
                                 <p class="product-price">₱850</p>
                             </div>
                         </div>
-                        <!-- Popup -->
-                        <div id="popup8" class="overlay">
-                            <div class="popup">
+                    </a>
+
+                    <!-- Popup -->
+                    <div class="modal fade" id="cpProduct8Modal" tabindex="-1" aria-labelledby="cpProduct8ModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content rounded-0">
+                            <div class="modal-header">
+                            <h4 class="modal-title" id="cpProduct8ModalLabel">ZARA CAMOU CARGO</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <div class="container-fluid">
                                 <div class="row">
-                                    <div class="col-sm-2 w-50 p-2 text-center ">
-                                        <h2>ZARA CAMOU CARGO</h2>
+                                <div class="col-md-6 d-flex align-items-center popup-image">
+                                    <img class="img-fluid" src="./images/products/cargo-pants/cp-product-8.jpg" alt="Product 8">
+                                </div>
+                                <div class="col-md-6 p-3 ms-auto">
+                                    <p class="display-5 d-flex justify-content-end">₱850</p>
+                                    <button onclick="window.location.href='cargo.html'" class="btn add-to-cart">ADD TO CART</button>
+                                    <div class="container-fluid mt-3">
+                                        <div class="row">
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Width</p>
+                                            <p class="m-0 fw-bold">31"</p>
+                                        </div>
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Length</p>
+                                            <p class="m-0 fw-bold">38"</p>
+                                        </div>
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Leg Opening</p>
+                                            <p class="m-0 fw-bold">10"</p>
+                                        </div>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-2 w-50 p-2 text-center">
-                                        <h3>₱850</h3>
+                                    <div class="d-flex m-3 align-items-center justify-content-center">
+                                        <img class="img-fluid sizing-guide" src="./images/sizing-guide.png" alt="Product 1">
                                     </div>
                                 </div>
-                                <a class="close" href="#">&times;</a>
-                                <div class="content">
-                                    <div class="row">
-                                        <div class="col-sm-2 w-50 h-50">
-                                            <img id="images" src="./images/products/cargo-pants/cp-product-8.jpg" alt="Product 2">
-                                        </div>
-                                        <div class="col-sm-2 w-50 h-50 text-center">
-                                            <button onclick="window.location.href='shop.html'" class="popup-button">ADD TO CART</button>
-                                            <div class="popup-details">
-                                                <p>Details:</p>
-                                                <p>Waist: 31”</p>
-                                                <p>Length: 38”</p>
-                                                <p>Leg Opening: 10”</p>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-2 w-100 p-1">
-                                                    <img id="images1" class="img-fluid" src="Images/sizing-guide.png" alt="Photo">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
+                            </div>
                         </div>
-                    </a>
+                        </div>
+                    </div>  
                 </div>
             </div>
+            <!-- Cargo Pants Product 9 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="product-item">
-                    <a href="#popup9" class="product-link">
-                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-5.jpg" alt="Product 5">
+                    <a href="#cpProduct9" class="product-link" data-bs-toggle="modal" data-bs-target="#cpProduct9Modal">
+                        <img class="img-fluid" src="./images/products/cargo-pants/cp-product-9.jpg" alt="Product 9">
                         <div class="product-details">
                             <div class="product-info">
                                 <h5 class="product-name">EAGLE CAMOU CARGO</h5>
                                 <p class="product-price">₱350</p>
                             </div>
                         </div>
-                        <!-- Popup -->
-                        <div id="popup9" class="overlay">
-                            <div class="popup">
+                    </a>
+
+                    <!-- Popup -->
+                    <div class="modal fade" id="cpProduct9Modal" tabindex="-1" aria-labelledby="cpProduct9ModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content rounded-0">
+                            <div class="modal-header">
+                            <h4 class="modal-title" id="cpProduct9ModalLabel">EAGLE CAMOU CARGO</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <div class="container-fluid">
                                 <div class="row">
-                                    <div class="col-sm-2 w-50 p-2 text-center ">
-                                        <h2>EAGLE CAMOU CARGO</h2>
+                                <div class="col-md-6 d-flex align-items-center popup-image">
+                                    <img class="img-fluid" src="./images/products/cargo-pants/cp-product-9.jpg" alt="Product 8">
+                                </div>
+                                <div class="col-md-6 p-3 ms-auto">
+                                    <p class="display-5 d-flex justify-content-end">₱350</p>
+                                    <button onclick="window.location.href='cargo.html'" class="btn add-to-cart">ADD TO CART</button>
+                                    <div class="container-fluid mt-3">
+                                        <div class="row">
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Width</p>
+                                            <p class="m-0 fw-bold">31"</p>
+                                        </div>
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Length</p>
+                                            <p class="m-0 fw-bold">38"</p>
+                                        </div>
+                                        <div class="col align-items-center justify-content-center text-center popup-detail">
+                                            <p class="m-0">Leg Opening</p>
+                                            <p class="m-0 fw-bold">10"</p>
+                                        </div>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-2 w-50 p-2 text-center">
-                                        <h3>₱350</h3>
+                                    <div class="d-flex m-3 align-items-center justify-content-center">
+                                        <img class="img-fluid sizing-guide" src="./images/sizing-guide.png" alt="Product 1">
                                     </div>
                                 </div>
-                                <a class="close" href="#">&times;</a>
-                                <div class="content">
-                                    <div class="row">
-                                        <div class="col-sm-2 w-50 h-50">
-                                            <img id="images" src="./images/products/cargo-pants/cp-product-9.jpg" alt="Product 2">
-                                        </div>
-                                        <div class="col-sm-2 w-50 h-50 text-center">
-                                            <button onclick="window.location.href='shop.html'" class="popup-button">ADD TO CART</button>
-                                            <div class="popup-details">
-                                                <p>Details:</p>
-                                                <p>Waist: 31”</p>
-                                                <p>Length: 38”</p>
-                                                <p>Leg Opening: 10”</p>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-2 w-100 p-1">
-                                                    <img id="images1" class="img-fluid" src="Images/sizing-guide.png" alt="Photo">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
+                            </div>
                         </div>
-                    </a>
+                    </div>
+                </div>  
                 </div>
             </div>
         </div>
     </div>
+       
     <!-- Side Bar -->
                 <div id="side_cart" class="side_cart">
                         <div class="cart_content">
