@@ -456,10 +456,9 @@ body {
 }
 
 /* Sidebar CSS */
-#open_cart_btn{
+#cartBtn{
   border: none;
-  background-color: #22241B;
-  padding: 10px;
+  background-color: transparent;
   border-radius: 10px;
   display: flex;
   align-items: center;
