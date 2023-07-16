@@ -90,11 +90,13 @@ body {
   transform: translateY(-100%);
   transition: transform 0.3s ease-in-out;
 }
+.nav-item .nav-link{
+  font-weight: 200;
+}
 .nav-link {
   color: #F7F7F7;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  font-weight: 100;
 }
 .navbar-brand {
   color: #B7C48D;
@@ -126,13 +128,15 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #323528;
   color: #F7F7F7;
-  font-weight: lighter;
+  font-weight: 200;
 }
 .dropdown-item:hover {
   background-color: #22241B;
   color: #F7F7F7;
 }
-
+.bi-cart-fill {
+  color: #F7F7F7;
+}
 /*===================================
  *         Footer Section
  *===================================
