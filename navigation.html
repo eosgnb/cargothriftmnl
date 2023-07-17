@@ -15,9 +15,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="shop.html">Shop</a>
-                </li> -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Shop
@@ -32,7 +29,7 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <button id="cartBtn">
-                        <i class="bi bi-cart-fill"></i><a class="nav-link">Cart</a>
+                        <i class="bi bi-cart-fill me-1"></i><a class="nav-link">Cart</a>
                     </button>
                 </li>
             </ul>
@@ -40,11 +37,54 @@
     </div>
 </nav>
 
+<!-- Side Cart -->
+<div id="cd-cart">
+    <h2>Cart</h2>
+    <ul class="cd-cart-items">
+        <li class="cd-cart-item">
+            <img src="./images/products/cargo-pants/cp-product-1.jpg" class="checkout-img" alt="Aeropostale Cargo">
+            <div class="cd-cart-item-details">
+                <div class="cd-cart-item-name">Aeropostale Cargo</div>
+                <div class="cd-price">₱400</div>
+            </div>
+            <a href="#0" class="cd-item-remove cd-img-replace"><i class="bi bi-x-circle-fill"></i></a>
+        </li>
+        <li class="cd-cart-item">
+            <img src="./images/products/cargo-pants/cp-product-2.jpg" class="checkout-img" alt="Dockers Cargo">
+            <div class="cd-cart-item-details">
+                <div class="cd-cart-item-name">Dockers Cargo</div>
+                <div class="cd-price">₱350</div>
+            </div>
+            <a href="#0" class="cd-item-remove cd-img-replace"><i class="bi bi-x-circle-fill"></i></a>
+        </li>
+    </ul>
+    <div class="cd-cart-fees">
+        <div class="cd-cart-total">
+            <p class="cd-cart-total-text">Subtotal</p>
+            <p class="cd-cart-total-price">₱750</p>
+        </div>
+        <div class="cd-cart-total">
+            <p class="cd-cart-total-text">Shipping</p>
+            <p class="cd-cart-total-price">Free</p>
+        </div>
+        <div class="cd-cart-total">
+            <p class="cd-cart-total-text">Total</p>
+            <p class="cd-cart-total-price">₱750</p>
+        </div>
+    </div>
+    
+      
+    <a href="information.html" class="checkout-btn">Checkout</a>
+    <p class="cd-continue-shopping"><a href="">Continue shopping</a></p>
+</div>
+
+<!-- Shadow Layer -->
+<div id="cd-shadow-layer"></div>
+
 <!-- Navbar Script -->
 <script>
     let prevScrollpos = window.pageYOffset;
     const navbar = document.getElementById("navbar");
-
     window.addEventListener("scroll", function() {
         const currentScrollPos = window.pageYOffset;
 
@@ -56,5 +96,23 @@
 
         prevScrollpos = currentScrollPos;
     });
+
+    const cartTrigger = document.querySelector("#cartBtn");
+    cartTrigger.addEventListener("click", function () {
+        const cart = document.querySelector("#cd-cart");
+        const shadowLayer = document.querySelector("#cd-shadow-layer");
+        cart.classList.toggle("open");
+        shadowLayer.classList.toggle("is-visible");
+    });
+
+    const shadowLayer = document.querySelector("#cd-shadow-layer");
+    shadowLayer.addEventListener("click", function () {
+        const cart = document.querySelector("#cd-cart");
+        const contShopping = document.querySelector(".cd-continue-shopping");
+        cart.classList.remove("open");
+        shadowLayer.classList.remove("is-visible");
+    });
+
+
 </script>
 
