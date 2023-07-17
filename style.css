@@ -129,6 +129,10 @@ body {
  *         Footer Section
  *===================================
  */
+ .footer {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+ }
  .footer-items a {
   color: #F7F7F7;
   text-decoration: none;
@@ -652,4 +656,20 @@ label {
   max-width: auto;
 }
 
-
+/*===================================
+ *            Side Cart
+ *===================================
+ */
+.about-content {
+  margin: 100px 30px 40px !important;
+  z-index: -1 !important;
+}
+.card-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+}
+.mission-vision {
+  background-color: #edede9;
+  padding: 15px;
+}
