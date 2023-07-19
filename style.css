@@ -199,7 +199,6 @@ body {
 .image-box {
   position: relative;
   text-align: center;
-  z-index: -1;
 }
 .image-box img {
   width: 100%;
@@ -250,7 +249,7 @@ body {
   display: inline-block;
   width: 20px;
   height: 20px;
-  border: 2px solid #DADADA;
+  border: 1px solid #DADADA;
   border-radius: 50%;
   margin-right: 10px;
   vertical-align: middle;
@@ -553,7 +552,7 @@ label {
   background-color: #f1f1f1;
   padding: 100px 20px;
   transition: right 0.3s ease-in-out;
-  z-index: 1;
+  z-index: 5;
   font-family: 'Oswald', sans-serif;
 }
 #cd-cart.open {
@@ -617,6 +616,7 @@ label {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   display: none;
+  z-index: 1;
 }
 #cd-shadow-layer.is-visible {
   display: block;
@@ -657,12 +657,11 @@ label {
 }
 
 /*===================================
- *            Side Cart
+ *         About & Contact
  *===================================
  */
-.about-content {
+#aboutContent, #contactContent {
   margin: 100px 30px 40px !important;
-  z-index: -1 !important;
 }
 .card-text {
   font-family: 'Roboto', sans-serif;
@@ -672,4 +671,10 @@ label {
 .mission-vision {
   background-color: #edede9;
   padding: 15px;
+}
+.contact-social-icon {
+  color: #666C51;
+}
+.contact-social-icon:hover {
+  color: #22241B;
 }
